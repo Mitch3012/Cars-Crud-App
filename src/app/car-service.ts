@@ -12,5 +12,9 @@ export class CarService {
     addCar(car: Car) {
   this.All.update(cars => [...cars, car]);
 }
-
+   updateCar(updatedCar:Car){
+    this.All.update
+    (cars => cars.map
+      (car => car.id === updatedCar.id ? updatedCar: car))
+   }
 }

@@ -2,7 +2,8 @@
 @for(car of carServ.All(); track car.name){
     <p>{{car.name}}</p>
     <button (click) = "getImage(car)">Get Car</button>
-    <button>Edit Car</button>
+    <a [routerLink]="['/cars', car.id, 'edit']">
+    Edit Car</a>
 }
 @if (currentCar === null){
     <p>Please select a car above to view it details</p>
