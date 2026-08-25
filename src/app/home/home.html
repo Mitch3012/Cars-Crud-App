@@ -1,0 +1,21 @@
+<p>We current have {{ carServ.All().length}} cars.</p>
+
+<form [formGroup]="carForm" (ngSubmit)="onSubmit()">
+
+  <label>Car Name</label>
+
+  <input formControlName="name">
+
+  <label>Image Path</label>
+
+  <input formControlName="image">
+
+
+  <button type="submit">
+    Create Car 
+  </button>
+  <button routerLink="/list">List</button>
+    
+</form>
+
+

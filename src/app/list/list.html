@@ -1,0 +1,13 @@
+
+@for(car of carServ.All(); track car.name){
+    <p>{{car.name}}</p>
+    <button (click) = "getImage(car)">Get Car</button>
+    <button>Edit Car</button>
+}
+@if (currentCar === null){
+    <p>Please select a car above to view it details</p>
+}
+@if (currentCar !== null){
+    <h2>{{ currentCar.name }}</h2>
+    <img [src]="currentCar.image">
+}
