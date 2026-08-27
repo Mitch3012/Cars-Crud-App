@@ -15,4 +15,8 @@ export class List {
   getImage(car: Car){
     this.currentCar = car;
   }
+  deleteCar(id:number){
+    this.carServ.deleteCar(id);
+
+}
 }

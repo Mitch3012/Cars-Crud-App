@@ -5,9 +5,9 @@ import { Car } from './car';
 @Service()
 export class CarService {
     All: WritableSignal<Car[]> = signal ([
-        {id:1, name:"fiat", image:'https://www.media.stellantis.com/cache/d/5/0/7/c/d507c35a9708eb6b386885e817a90605e9d2e46b.jpeg'},
-        {id:2, name:"toyota", image:'https://www.topgear.com/sites/default/files/cars-car/carousel/2019/04/toyota-camry-hybrid-exterior-dynamic-not-uk-spec-26.jpg'},
-        {id:3, name:"ford", image:'https://m.atcdn.co.uk/a/media/w800/98575dc7ce18443289a394bf2f80812f.jpg'}
+        {id:1, name:"Fiat", image:'https://www.media.stellantis.com/cache/d/5/0/7/c/d507c35a9708eb6b386885e817a90605e9d2e46b.jpeg'},
+        {id:2, name:"Toyota", image:'https://www.topgear.com/sites/default/files/cars-car/carousel/2019/04/toyota-camry-hybrid-exterior-dynamic-not-uk-spec-26.jpg'},
+        {id:3, name:"Ford", image:'https://m.atcdn.co.uk/a/media/w800/98575dc7ce18443289a394bf2f80812f.jpg'}
     ])
     addCar(car: Car) {
   this.All.update(cars => [...cars, car]);
@@ -16,5 +16,8 @@ export class CarService {
     this.All.update
     (cars => cars.map
       (car => car.id === updatedCar.id ? updatedCar: car))
+   }
+   deleteCar(id:number){
+    this.All.update(cars => cars.filter(cars =>cars.id !== id));
    }
 }

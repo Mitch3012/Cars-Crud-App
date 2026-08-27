@@ -1,14 +1,16 @@
-
+<h2>Our current car inventory.</h2>
+      <button id = "homeButton" routerLink="/">Home / Create</button>
 @for(car of carServ.All(); track car.name){
     <p>{{car.name}}</p>
-    <button (click) = "getImage(car)">Get Car</button>
+    <button id = "getButton" (click) = "getImage(car)">Get Car</button>
     <a [routerLink]="['/cars', car.id, 'edit']">
     Edit Car</a>
+<button id = "deleteButton"(click)="deleteCar(car.id)">Delete</button>  
 }
 @if (currentCar === null){
     <p>Please select a car above to view it details</p>
 }
 @if (currentCar !== null){
     <h2>{{ currentCar.name }}</h2>
-    <img [src]="currentCar.image">
+    <img class = "carImage" [src]="currentCar.image">
 }

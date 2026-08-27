@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+p{
+      font-family: "Nova Square", sans-serif;
+      size: 20px;
+      color: #444
+}
+body{
+    background-color:  #1e1e1e;
+}
+h2{
+    font-family: "Nova Square", sans-serif;
+        size: 35px;
+        color: #f5f5f5;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 1px 1px 2px #cc5500;
+    }
+
+    label{
+      font-family: "Nova Square", sans-serif;
+      size: 20px;
+      color: #444;
+      margin: 10px;
+    }
+    input{
+        font-family: "Nova Square", sans-serif;
+        background-color:#1e1e1e;
+        color: #f5f5f5;
+        border: 2px solid #444;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    input:focus {
+        outline: none;
+        border-color: #cc5500;
+        box-shadow: 0 0 0 2.5px rgba(204, 85, 0, 0.2);
+}
+button{
+       font-family: "Nova Square", sans-serif;
+}
+

@@ -1,12 +1,15 @@
-<p>We current have {{ carServ.All().length}} cars.</p>
+
+<h2>Welcome to the Mitchell Brothers Car Showroom stock system</h2>
+<h2>Add a new car to our sales fleet</h2>
+<p>We current have <strong>{{ carServ.All().length}}</strong> cars.</p>
 
 <form [formGroup]="carForm" (ngSubmit)="onSubmit()">
 
-  <label>Car Name</label>
+  <label>Car Name:</label>
 
   <input formControlName="name">
 
-  <label>Image Path</label>
+  <label>Image Path:</label>
 
   <input formControlName="image">
 

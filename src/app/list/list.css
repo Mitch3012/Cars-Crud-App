@@ -1,4 +1,64 @@
-img{
-    width: 150px;
-    width: auto;
+
+
+.carImage{
+    width: 250px;
+    width: 250px;
+    display: block;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+    color: #444;
+    margin: 10px;
+    font-family: "Nova Square", sans-serif;
+     transition:  ease-in-out 2s;
+}
+
+a:hover{
+    color: #cc5500;
+    transition:  ease-in-out 2s;
+}
+
+h2{
+    text-align: center;
+}
+#getButton{
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  border: 2px solid #444;
+  border-radius: 6px;
+  padding: 10px;
+  transition:  ease-in-out 2s;
+}
+
+#getButton:hover{
+color: #cc5500;
+}
+#deleteButton{
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  border: 2px solid #444;
+  border-radius: 6px;
+  padding: 10px;
+  transition:  ease-in-out 2s;
+}
+
+#deleteButton:hover{
+  color: #c94c4c;
+  border: 1px solid #c94c4c;
+
+}
+#homeButton{
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  border: 2px solid #444;
+  border-radius: 6px;
+  padding: 10px;
+  transition:  ease-in-out 2s;
+}
+#homeButton:hover{
+color: #cc5500;
 }
