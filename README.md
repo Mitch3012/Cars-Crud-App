@@ -1,3 +1,59 @@
+## 🚗 Car CRUD App
+
+A responsive Angular application for managing vehicle records through a clean, modern dark-mode interface.
+
+The app demonstrates full CRUD functionality — creating, reading, updating and deleting vehicle records — using Angular Reactive Forms, Signals and Router navigation.
+
+✨ Features
+Create — Add new vehicle records using a validated form
+Read — Display vehicle records dynamically
+Update — Edit existing vehicle information
+Delete — Remove vehicle records with destructive-action styling
+Angular Reactive Forms
+Angular Signals for state management
+Angular Router for navigation
+Dynamic vehicle image rendering
+Form validation
+Responsive dark-mode UI
+Interactive hover and focus states
+User-friendly form feedback
+🛠️ Technologies Used
+Angular
+TypeScript
+JavaScript
+HTML5
+CSS3
+## 📸 Screenshots
+Vehicle List
+
+[Cars-Crud-App](./screenshots/screenshot2.png)
+
+Add / Edit Vehicle
+[Cars-Crud-App](./screenshots/screenshot1.png)
+[Cars-Crud-App](./screenshots/screenshot3.png)
+
+## 🧠 What I Learned
+
+This project gave me practical experience building an Angular application around a complete CRUD workflow.
+
+Key areas I worked with include:
+
+Managing application state with Angular Signals
+Building and validating Reactive Forms
+Passing data between components
+Updating signal-based state
+Using Angular Router for navigation
+Rendering images dynamically from data
+Handling create, update and delete operations
+Building responsive UI components
+Designing interactive focus and hover states
+🎯 Project Goal
+
+The goal of this project was to bring together the Angular concepts I had been learning and apply them to a complete working application rather than isolated exercises.
+
+Built with Angular & TypeScript
+
+
 # Cars
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.8.
