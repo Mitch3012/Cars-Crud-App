@@ -26,11 +26,11 @@ CSS3
 ## 📸 Screenshots
 Vehicle List
 
-(./screenshots/screenshot2.png)
+[Cars-Crud-App](./screenshots/screenshot2.png)
 
 Add / Edit Vehicle
-(./screenshots/screenshot1.png)
-(./screenshots/screenshot3.png)
+[Cars-Crud-App](./screenshots/screenshot1.png)
+[Cars-Crud-App](./screenshots/screenshot3.png)
 
 ## 🧠 What I Learned
 
